@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Galeria de Imagens</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="./imagens/logotipo.svg" alt="">
+        <h1>Cardápio</h1>
+        <input class="pesquisar" type="text" name="" placeholder="Faça sua pesquisa:">
+    </nav>
+
+    <h4>Você está com fome?</h4>
+    
+    <h5>Confira nosso cardápio</h5>
+
+    <div class="container">
+
+        <div class="card" id="comida1">
+            <div class="imagem">
+                <img src="./imagens/comida_1.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Parmegiana</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Arroz, frango, molho</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Parmegiana')">Leia Mais</button>
+            </div>
+
+        </div>
+
+        <div class="card" id="comida2">
+            <div class="imagem">
+                <img src="./imagens/comida_2.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Sushi</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Arroz, cani, pepino</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Sushi')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card" id="comida3">
+            <div class="imagem">
+                <img src="./imagens/comida_3.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Fricassê</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Frango, creme de leite, queijo</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Fricassê')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_4.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Macarrão ao Sugo</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Macarrão, azeitona, molho de tomate</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Macarrão ao Sugo')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_5.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Macarrão Molho Branco</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Macarrão, ervilha, presunto</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Macarrão Molho Branco')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_6.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Arroz Cremoso</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Arroz, creme de leite, queijo</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Arroz Cremoso')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_7.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Miojo</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Miojo, creme de leite, queijo</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Miojo')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_8.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Feijoada</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Arroz, feijão, calabresa</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Feijoada')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_9.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Lasanha</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Macarrão, molho branco, carne moída</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Lasanha')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_10.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Frango Grelhado</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Frango, azeite, alho</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Frango Grelhado')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_11.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Bacalhau</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Bacalhau, batata, cebola</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Bacalhau')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_12.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Salmão</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Salmão, pimenta do reino, azeite</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Salmão')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_13.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Churrasquinho</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Carne, frango, linguiça</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Churrasquinho')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_14.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Pizza</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Massa, calabresa, queijo</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Pizza')">Leia Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imagem">
+                <img src="./imagens/comida_15.jpg" alt="">
+            </div>
+            <div class="descricao">
+                <div class="comida">
+                    <h1>Cachorro Quente</h1>
+                </div>
+                <div class="ingredientes">
+                    <span>Salsicha, pão, mostarda, ketchup</span>
+                </div>
+                <div class="preparo">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <button class="btn-more" onclick="alertfn('Cachorro Quente')">Leia Mais</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-footer">
+
+            <div class="row-footer">
+
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Nossos serviços</a></li>
+                        <li><a href="">Política de privacidade</a></li>
+                        <li><a href="">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Funcionários</a></li>
+                        <li><a href="">Reclame aqui</a></li>
+                        <li><a href="">Status de pedido</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Pedido Online</h4>
+                    <ul>
+                        <li><a href="">Massas</a></li>
+                        <li><a href="">Japonês</a></li>
+                        <li><a href="">Peixe</a></li>
+                        <li><a href="">Outros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Mídias Sociais</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite aqui seu e-mail">
+                            <button>Increver-se</button>
+                        </form>
+                    </div>
+
+                    <div class="midias-sociais">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-tumblr"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="btn.js"></script>
+</body>
+
+</html>
